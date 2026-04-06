@@ -17,7 +17,6 @@ const analyzeWithGemini = async (prompt) => {
     });
 
     const text = response.text;
-
     return {
       provider: "gemini",
       model: GEMINI_MODEL,

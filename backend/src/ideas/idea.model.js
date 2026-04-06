@@ -1,5 +1,19 @@
 import mongoose from "mongoose";
 
+const competitorSchema = new mongoose.Schema(
+  {
+    name: {
+      type: String,
+      required: true,
+    },
+    differentiation: {
+      type: String,
+      required: true,
+    },
+  },
+  { _id: false }
+);
+
 const ideaSchema = new mongoose.Schema({
     userId: {
         type: String,
@@ -18,6 +32,10 @@ const ideaSchema = new mongoose.Schema({
     },
     market: {
         type: [String],
+    },
+    competitors: {
+      type: [competitorSchema],
+      default: [],
     },
     techStack: {
         type: [String],
