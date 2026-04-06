@@ -42,7 +42,7 @@ export function IdeaForm() {
         description: formData.description.trim(),
       });
 
-      setSuccessMessage(response.message || "Idea analyzed successfully.");
+      setSuccessMessage(response.message || "Idea analysed successfully.");
       setFormData(initialForm);
     } catch (submitError) {
       setError(submitError.message);
@@ -95,7 +95,7 @@ export function IdeaForm() {
           AI will generate summary, customers, market, competitors, risk, and score.
         </div>
         <Button className="sm:min-w-[200px]" isLoading={isSubmitting} type="submit">
-          Analyze Idea
+          Analyse Idea
           <ArrowRight className="h-4 w-4" />
         </Button>
       </div>
