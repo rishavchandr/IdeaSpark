@@ -134,3 +134,11 @@ Then open `http://localhost:5173` in your browser.
 This project is open source and available under the [MIT License](LICENSE).
 
 ---
+
+## 🧠 Prompt Reference
+
+For the frontend prompt and supporting reference document, see the embedded Google Doc:
+
+[IdeaSpark Frontend Prompt Reference](https://docs.google.com/document/d/1vxJme4J6vCX65NAEGWEFFH3idIQrOg65MX1KoF3hyVY/edit?usp=sharing)
+
+---
